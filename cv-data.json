@@ -1,0 +1,136 @@
+{
+  "experiences": [
+    {
+      "role": "PhD Candidate in Neuroscience",
+      "institution": "Karolinska Institutet, Stockholm, Sweden",
+      "startDate": "2022-03-01",
+      "description": "Investigating estrogen receptor-mediated neuroprotection in Alzheimer's disease using the AppNL-G-F mouse model. Performed scRNA-seq analysis, cell-cell communication analysis, and integrated transcriptomic, behavioral, and histological data."
+    },
+    {
+      "role": "Research Exchange Scholar",
+      "institution": "University of Texas at Austin, USA",
+      "startDate": "2021-08-01",
+      "endDate": "2022-01-01",
+      "description": "Conducted research in biomedical engineering with a focus on advanced molecular and computational approaches."
+    },
+    {
+      "role": "Assistant Lecturer (Biochemistry)",
+      "institution": "Assiut University, Egypt",
+      "startDate": "2019-04-01",
+      "description": "Teaching undergraduate courses in biochemistry and molecular biology. Performed biochemical and molecular assays including ELISA, PCR, CDNA synthesis."
+    },
+    {
+      "role": "Biochemist",
+      "institution": "El-Salama IVF Center, Assiut, Egypt",
+      "startDate": "2018-03-01",
+      "endDate": "2019-05-01",
+      "description": "Performed semen analysis, cryopreservation, and assisted reproductive techniques including intrauterine insemination (IUI)."
+    },
+    {
+      "role": "Demonstrator (Biochemistry)",
+      "institution": "Assiut University, Egypt",
+      "startDate": "2014-11-01",
+      "endDate": "2019-03-01",
+      "description": "Assisted in teaching undergraduate courses in biochemistry and molecular biology."
+    }
+  ],
+  "educations": [
+    {
+      "degree": "PhD in Neuroscience",
+      "institution": "Karolinska Institutet, Sweden",
+      "startYear": "2022",
+      "endYear": "Present"
+    },
+    {
+      "degree": "M.Sc. in Biochemistry",
+      "institution": "Assiut University, Egypt",
+      "startYear": "2015",
+      "endYear": "2019"
+    },
+    {
+      "degree": "B.V.Sc. (Excellent with Honor)",
+      "institution": "Assiut University, Egypt",
+      "startYear": "2009",
+      "endYear": "2014"
+    }
+  ],
+  "skills": [
+    { "name": "R/RStudio", "category": "Bioinformatics" },
+    { "name": "Seurat", "category": "Bioinformatics" },
+    { "name": "CellChat", "category": "Bioinformatics" },
+    { "name": "Harmony", "category": "Bioinformatics" },
+    { "name": "Python", "category": "Bioinformatics" },
+    { "name": "qPCR", "category": "Experimental" },
+    { "name": "ELISA", "category": "Experimental" },
+    { "name": "Immunohistochemistry", "category": "Experimental" },
+    { "name": "Flow cytometry", "category": "Experimental" },
+    { "name": "Cell culture", "category": "Experimental" },
+    { "name": "Animal Handling", "category": "Experimental" }
+  ],
+  "socialLinks": [
+    { "platformName": "LinkedIn", "url": "https://www.linkedin.com/in/hebaali-453021153/" },
+    { "platformName": "GitHub", "url": "https://github.com/heba-ali2030" },
+    { "platformName": "ResearchGate", "url": "https://www.researchgate.net/profile/Heba-Ali-62?ev=prf_overview" },
+    { "platformName": "Google Scholar", "url": "https://scholar.google.com/citations?user=3n4IMasAAAAJ&hl=en" },
+    { "platformName": "KI Staff", "url": "https://staff.ki.se/people/heba-ali" },
+    { "platformName": "ORCID", "url": "https://orcid.org/my-orcid?orcid=0009-0004-4399-1075" }
+  ],
+ "publications": [
+    {
+      "title": "Ultrasound triggered organic mechanoluminescence materials",
+      "authors": "W Wang, A Tasset, I Pyatnitskiy, HG Mohamed, R Taniguchi, R Zhou, ...",
+      "journalName": "Advanced drug delivery reviews 186, 114343",
+      "publicationYear": "2022",
+      "citations": 63,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3n4IMasAAAAJ&citation_for_view=3n4IMasAAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "title": "Effect of hesperidin against induced colon cancer in rats: impact of Smad4 and activin a signaling pathway",
+      "authors": "SEM El-Deek, SKH Abd-Elghaffar, RS Hna, HG Mohamed, HEM El-Deek",
+      "journalName": "Nutrition and Cancer 74 (2), 697-714",
+      "publicationYear": "2022",
+      "citations": 15,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3n4IMasAAAAJ&citation_for_view=3n4IMasAAAAJ:Y0pCki6q_DkC"
+    },
+    {
+      "title": "ERβ mediates sex-specific protection in the App-NL-G-F mouse model of Alzheimer’s disease",
+      "authors": "A Demetriou, B Lindqvist, HG Ali, MM Shamekh, M Varshney, J Inzunza, ...",
+      "journalName": "Biology of sex Differences 16 (1), 29",
+      "publicationYear": "2025",
+      "citations": 8,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3n4IMasAAAAJ&citation_for_view=3n4IMasAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+      "title": "Transcriptomic profiling of the oocyte-cumulus-granulosa cell complex from estrogen receptor β knockout mice",
+      "authors": "V Töhönen, P Antonson, NR Boggavarapu, H Ali, LA Motaholi, ...",
+      "journalName": "F&S Science 5 (4), 306-317",
+      "publicationYear": "2024",
+      "citations": 3,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3n4IMasAAAAJ&citation_for_view=3n4IMasAAAAJ:WF5omc3nYNoC"
+    },
+    {
+      "title": "Reversible, covalent DNA condensation approach using chemical linkers for enhanced gene delivery",
+      "authors": "W Wang, A Tasset, I Pyatnitskiy, P Lin, A Bellamkonda, R Mehta, ...",
+      "journalName": "Nano letters 23 (20), 9310-9318",
+      "publicationYear": "2023",
+      "citations": 1,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3n4IMasAAAAJ&citation_for_view=3n4IMasAAAAJ:eQOLeE2rZwMC"
+    },
+    {
+      "title": "Effects of gonadectomy on brain sex hormone levels and amyloid pathology in male and female AppNL‐G‐F and AppNL‐F mice",
+      "authors": "P Muñoz, HG Ali, A Demetriou, M Latorre‐Leal, M Shimozawa, L Delac, ...",
+      "journalName": "Journal of Neuroendocrinology 38 (3), e70161",
+      "publicationYear": "2026",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3n4IMasAAAAJ&citation_for_view=3n4IMasAAAAJ:_FxGoFyzp5QC"
+    },
+    {
+      "title": "EVALUATION OF BLOOD TOTAL ANTIOXIDANT CAPACITY AND LIPID PEROXIDATION IN COWS INFECTED WITH LUMPY SKIN",
+      "authors": "HK Elsayed, HG Mohamed, NNA Hafiz, M Rushdi",
+      "journalName": "Egyptian Society for Cattle Diseases",
+      "publicationYear": "2016",
+      "citations": 0,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3n4IMasAAAAJ&citation_for_view=3n4IMasAAAAJ:UeHWp8X0CEIC"
+    }
+  ]
+}
