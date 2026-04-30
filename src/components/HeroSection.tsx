@@ -49,8 +49,8 @@ export default function HeroSection() {
             </motion.p>
 
             <motion.div {...fadeUp(0.23)} className="flex items-center gap-2">
-              <MapPin size={14} className="text-white/35" />
-              <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.45)" }}>
+              <MapPin size={14} className="text-white/80" />
+              <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.85)" }}>
                 Karolinska Institutet · Stockholm, Sweden
               </span>
             </motion.div>
@@ -58,7 +58,7 @@ export default function HeroSection() {
             <motion.p
               {...fadeUp(0.28)}
               className="text-white"
-              style={{ fontSize: "16px", lineHeight: 1.7, maxWidth: "480px", opacity: 0.65 }}
+              style={{ fontSize: "16px", lineHeight: 1.7, maxWidth: "480px", opacity: 0.9 }}
             >
               Neuroscientist and biochemist specializing in neurodegenerative diseases.
               My work bridges experimental molecular biology and computational

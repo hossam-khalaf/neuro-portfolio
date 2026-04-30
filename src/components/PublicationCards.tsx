@@ -30,7 +30,7 @@ export default function PublicationCards({ publications }: { publications: Publi
             }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.07, ease: EASE }}
-            className="bg-white/10 border border-white/20 rounded-lg p-6 flex flex-col gap-4 h-full"
+            className="group bg-white/10 border border-white/20 rounded-lg p-6 flex flex-col gap-4 h-full"
             style={{ boxShadow: "0 10px 40px rgba(0,0,0,0.2)" }}
           >
             <div className="flex items-center justify-between">
@@ -60,7 +60,9 @@ export default function PublicationCards({ publications }: { publications: Publi
                 {pub.journal}
               </span>
               {pub.paperUrl && (
-                <ArrowUpRight size={15} className="text-white/80 shrink-0" />
+                <div className="bg-white/10 p-1.5 rounded-full group-hover:bg-indigo-500/30 transition-colors duration-200 border border-white/5">
+                  <ArrowUpRight size={16} className="text-white shrink-0" />
+                </div>
               )}
             </div>
           </motion.div>
