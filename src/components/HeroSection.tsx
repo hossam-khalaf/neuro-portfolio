@@ -29,7 +29,7 @@ export default function HeroSection() {
 
             <motion.h1
               {...fadeUp(0.1)}
-              className="inline-block bg-gradient-to-r from-pink-200 via-indigo-300 to-blue-300 text-transparent bg-clip-text animate-gradient-x"
+              className="inline-block bg-gradient-to-r from-fuchsia-400 via-violet-400 to-cyan-400 text-transparent bg-clip-text animate-gradient-x"
               style={{
                 fontSize: "clamp(54px, 7vw, 88px)",
                 fontWeight: 700,
