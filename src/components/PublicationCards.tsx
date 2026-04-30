@@ -8,7 +8,7 @@ import type { Publication } from "@/lib/types";
 export default function PublicationCards({ publications }: { publications: Publication[] }) {
   if (publications.length === 0) {
     return (
-      <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.4)" }}>No publications found.</p>
+      <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.8)" }}>No publications found.</p>
     );
   }
 
@@ -30,7 +30,7 @@ export default function PublicationCards({ publications }: { publications: Publi
             }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.07, ease: EASE }}
-            className="bg-white/5 border border-white/10 rounded-lg p-6 flex flex-col gap-4 h-full"
+            className="bg-white/10 border border-white/20 rounded-lg p-6 flex flex-col gap-4 h-full"
             style={{ boxShadow: "0 10px 40px rgba(0,0,0,0.2)" }}
           >
             <div className="flex items-center justify-between">
@@ -49,7 +49,7 @@ export default function PublicationCards({ publications }: { publications: Publi
             {pub.abstract && (
               <p
                 className="flex-1 line-clamp-3"
-                style={{ fontSize: "13px", lineHeight: 1.65, color: "rgba(255,255,255,0.5)" }}
+                style={{ fontSize: "13px", lineHeight: 1.65, color: "rgba(255,255,255,0.85)" }}
               >
                 {pub.abstract}
               </p>
@@ -60,7 +60,7 @@ export default function PublicationCards({ publications }: { publications: Publi
                 {pub.journal}
               </span>
               {pub.paperUrl && (
-                <ArrowUpRight size={15} className="text-white/50 shrink-0" />
+                <ArrowUpRight size={15} className="text-white/80 shrink-0" />
               )}
             </div>
           </motion.div>

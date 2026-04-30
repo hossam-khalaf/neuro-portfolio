@@ -24,7 +24,7 @@ export default function Footer() {
           >
             Let&apos;s Connect
           </h2>
-          <p style={{ fontSize: "16px", lineHeight: 1.65, color: "rgba(255,255,255,0.45)", marginBottom: "28px", maxWidth: "360px" }}>
+          <p style={{ fontSize: "16px", lineHeight: 1.65, color: "rgba(255,255,255,0.85)", marginBottom: "28px", maxWidth: "360px" }}>
             Open to discussing research collaborations, presenting my findings, and exploring
             opportunities post-defense.
           </p>
@@ -38,13 +38,13 @@ export default function Footer() {
                 {href ? (
                   <a
                     href={href}
-                    style={{ fontSize: "15px", color: "rgba(255,255,255,0.65)" }}
+                    style={{ fontSize: "15px", color: "rgba(255,255,255,0.9)" }}
                     className="hover:text-white transition-colors duration-200"
                   >
                     {label}
                   </a>
                 ) : (
-                  <span style={{ fontSize: "15px", color: "rgba(255,255,255,0.65)" }}>{label}</span>
+                  <span style={{ fontSize: "15px", color: "rgba(255,255,255,0.9)" }}>{label}</span>
                 )}
               </li>
             ))}
@@ -60,15 +60,15 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/5 px-6 py-5 max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
-        <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.25)" }}>
+        <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.6)" }}>
           © 2026 Heba Ali. All rights reserved.
         </span>
         <a
           href="https://hossamkhalaf.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-mono uppercase text-[10px] tracking-[0.15em] hover:text-white/50 transition-colors duration-200"
-          style={{ color: "rgba(255,255,255,0.2)" }}
+          className="font-mono uppercase text-[10px] tracking-[0.15em] hover:text-white/80 transition-colors duration-200"
+          style={{ color: "rgba(255,255,255,0.5)" }}
         >
           Made by Hossam Khalaf
         </a>
