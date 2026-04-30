@@ -16,7 +16,7 @@ export default function HeroSection() {
       {/* Animated Neuroscience Particle Network */}
       <ParticleNetwork />
 
-      <div className="max-w-6xl mx-auto px-6 py-36 w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 py-36 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: copy */}
           <div className="flex flex-col gap-6">
