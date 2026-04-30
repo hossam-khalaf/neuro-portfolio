@@ -11,13 +11,37 @@ export default function HeroSection() {
       id="about"
       className="relative min-h-screen bg-[#010120] flex items-center overflow-hidden"
     >
-      <div
-        className="absolute inset-0 pointer-events-none"
-        style={{
-          background:
-            "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(189,187,255,0.12), transparent)",
-        }}
-      />
+      {/* Animated Neuroscience/Aurora Background */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {/* Core center glow */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: "radial-gradient(circle at 50% 30%, rgba(20, 110, 245, 0.08) 0%, transparent 60%)",
+          }}
+        />
+        {/* Floating gradient orb 1 - Purple */}
+        <motion.div
+          animate={{ x: ["-10%", "10%", "-10%"], y: ["0%", "10%", "0%"] }}
+          transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full mix-blend-screen filter blur-[120px] opacity-30"
+          style={{ background: "radial-gradient(circle, #bdbbff, transparent 70%)" }}
+        />
+        {/* Floating gradient orb 2 - Blue */}
+        <motion.div
+          animate={{ x: ["10%", "-10%", "10%"], y: ["-10%", "5%", "-10%"] }}
+          transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute top-[20%] right-[-10%] w-[45vw] h-[45vw] rounded-full mix-blend-screen filter blur-[100px] opacity-40"
+          style={{ background: "radial-gradient(circle, #146ef5, transparent 70%)" }}
+        />
+        {/* Floating gradient orb 3 - Pinkish */}
+        <motion.div
+          animate={{ x: ["0%", "15%", "0%"], y: ["15%", "0%", "15%"] }}
+          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
+          className="absolute bottom-[-20%] left-[20%] w-[60vw] h-[60vw] rounded-full mix-blend-screen filter blur-[140px] opacity-20"
+          style={{ background: "radial-gradient(circle, #f472b6, transparent 70%)" }}
+        />
+      </div>
 
       <div className="max-w-6xl mx-auto px-6 py-36 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
