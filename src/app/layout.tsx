@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://heba-ali.com"),
-  title: "Heba Ali — PhD Candidate in Neuroscience",
+  title: "Heba Ali | PhD Candidate in Neuroscience | Karolinska Institutet",
   description:
-    "Neuroscientist and biochemist specializing in Alzheimer's disease, estrogen receptor signaling, and single-cell transcriptomics at Karolinska Institutet.",
+    "Heba Ali is a Neuroscientist and biochemist specializing in Alzheimer's disease pathology, estrogen receptor signaling, and single-cell transcriptomics (scRNA-seq) at Karolinska Institutet.",
   openGraph: {
-    title: "Heba Ali — PhD Candidate in Neuroscience",
-    description: "Neuroscientist and biochemist specializing in Alzheimer's disease, estrogen receptor signaling, and single-cell transcriptomics at Karolinska Institutet.",
+    title: "Heba Ali | PhD Candidate in Neuroscience",
+    description: "Heba Ali is a Neuroscientist and biochemist specializing in Alzheimer's disease pathology, estrogen receptor signaling, and single-cell transcriptomics (scRNA-seq) at Karolinska Institutet.",
     url: "https://heba-ali.com",
     siteName: "Heba Ali Portfolio",
     images: [
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Heba Ali — PhD Candidate in Neuroscience",
-    description: "Neuroscientist and biochemist specializing in Alzheimer's disease, estrogen receptor signaling, and single-cell transcriptomics at Karolinska Institutet.",
+    title: "Heba Ali | PhD Candidate in Neuroscience",
+    description: "Heba Ali is a Neuroscientist and biochemist specializing in Alzheimer's disease pathology, estrogen receptor signaling, and single-cell transcriptomics (scRNA-seq) at Karolinska Institutet.",
     images: ["/avatar.jpg"],
   },
 };
@@ -46,10 +46,24 @@ const jsonLd = {
   "@type": "Person",
   name: "Heba Ali",
   jobTitle: "PhD Candidate in Neuroscience",
-  affiliation: {
+  description: "Neuroscientist and biochemist specializing in Alzheimer's disease pathology, estrogen receptor signaling, and single-cell transcriptomics (scRNA-seq).",
+  worksFor: {
     "@type": "Organization",
-    name: "Karolinska Institutet"
+    name: "Karolinska Institutet",
+    location: "Stockholm, Sweden"
   },
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "Assiut University"
+  },
+  knowsAbout: [
+    "Alzheimer's disease pathology",
+    "Estrogen receptor signaling",
+    "Single-cell transcriptomics (scRNA-seq)",
+    "Neuroscience",
+    "Biochemistry",
+    "Bioinformatics"
+  ],
   url: "https://heba-ali.com",
   sameAs: [
     "https://www.linkedin.com/in/hebaali-453021153/",
