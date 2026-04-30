@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { MapPin, Calendar, Mail, ChevronRight } from "lucide-react";
 import { EASE, fadeUp } from "@/lib/animation";
-
+import avatarImage from "../../public/avatar.jpg";
 export default function HeroSection() {
   return (
     <section
@@ -121,10 +121,11 @@ export default function HeroSection() {
               {/* Avatar image — inset by 2px to show the ring */}
               <div className="absolute w-[232px] h-[232px] rounded-full overflow-hidden border border-white/10">
                 <Image
-                  src="/avatar.jpg"
+                  src={avatarImage}
                   alt="Heba Ali"
                   fill
                   className="object-cover"
+                  placeholder="blur"
                   priority
                 />
               </div>
